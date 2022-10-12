@@ -1,33 +1,47 @@
-* {
+/* * {
     outline: 1px solid red;
-}
+} */
 
 body > header {
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 14px 0px;
 }
 
-#header-menus nav > ul {
+#header-menus {
+    margin-left: 25%;
+}
+
+#header-menus > nav ul {
     list-style: none;
 }
 
-#header-menus nav > ul li {
+#header-menus > nav ul li {
     display: inline;
+    margin-right: 12px;
 }
 
 #header-menus > nav {
     display: inline;
 }
 
-#header-menus nav > ul {
+#header-menus > nav ul {
+    display: inline;
+    padding-left: 1px;
+    padding-left: 19px;
+}
+
+#header-menus h1 {
     display: inline;
 }
 
-#header-menus > h1 {
-    display: inline;
+#header-buttons {
+    margin-right: 25%;
 }
 
-#profile-color-area {
+.blue-header {
     height: 100px;
     width: 100%;
     background-color: #4ba0b5;
@@ -37,8 +51,17 @@ body > header {
     width: 33%;
 }
 
+.article {
+    border: 2px solid #CCCCCC;
+    margin: 30px 0px;
+}
+
+.article > header {
+    border-bottom: 2px solid #CCCCCC;
+}
+
 #connections {
-    width: 30%;
+    width: 17%;
     margin-left: 20px;
 }
 
@@ -63,5 +86,33 @@ body > main {
 
 .con-req-row {
     display: flex;
+    justify-content: space-between;
+    padding: 10px 8px;
     align-items: center;
+}
+
+.con-req-user {
+    font-size: 20px;
+}
+
+.con-req-row .con-req-user img{
+    height: 60px;
+    padding-right: 10px;
+}
+
+.con-req-row .con-req-btn img {
+    height: 30px;
+}
+
+.connection-article > header {
+    background-color: #333333;
+    padding: 15px 5px;
+    color: #e2e2e2;
+    text-align: center;
+    font-size: 19px;
+}
+
+.connection-article > footer {
+    border-top: 2px solid #CCCCCC;
+    padding: 15px 5px;
 }
