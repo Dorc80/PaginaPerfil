@@ -1,0 +1,67 @@
+* {
+    outline: 1px solid red;
+}
+
+body > header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-menus nav > ul {
+    list-style: none;
+}
+
+#header-menus nav > ul li {
+    display: inline;
+}
+
+#header-menus > nav {
+    display: inline;
+}
+
+#header-menus nav > ul {
+    display: inline;
+}
+
+#header-menus > h1 {
+    display: inline;
+}
+
+#profile-color-area {
+    height: 100px;
+    width: 100%;
+    background-color: #4ba0b5;
+}
+
+#articles {
+    width: 33%;
+}
+
+#connections {
+    width: 30%;
+    margin-left: 20px;
+}
+
+body > main {
+    display: flex;
+    justify-content: center;
+}
+
+.profile .content > ul {
+    list-style: none;
+    display: inline;
+}
+
+.profile .content > ul li {
+    display: inline;
+}
+
+.profile article > main {
+    position: relative;
+    bottom: 63px;
+}
+
+.con-req-row {
+    display: flex;
+    align-items: center;
+}
