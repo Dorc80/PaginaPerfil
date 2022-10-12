@@ -8,6 +8,7 @@ body > header {
     background-color: black;
     color: white;
     padding: 14px 0px;
+    align-items: baseline;
 }
 
 #header-menus {
@@ -41,6 +42,13 @@ body > header {
     margin-right: 25%;
 }
 
+#header-buttons button {
+    background-color: #4ba0b5;
+    color: white;
+    padding: 5px 16px;
+    font-size: 16px;
+}
+
 .blue-header {
     height: 100px;
     width: 100%;
@@ -60,6 +68,31 @@ body > header {
     border-bottom: 2px solid #CCCCCC;
 }
 
+.article main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.article main header p img {
+    height: 16px;
+}
+
+.article main header p {
+    margin: 8px 0px;
+}
+
+.article main div p {
+    margin: 0px;
+}
+
+.article main footer img {
+    height: 16px;
+}
+
+.article main footer {
+    margin-top: 11px;
+}
+
 #connections {
     width: 17%;
     margin-left: 20px;
@@ -73,6 +106,7 @@ body > main {
 .profile .content > ul {
     list-style: none;
     display: inline;
+    padding-left: 0px;
 }
 
 .profile .content > ul li {
@@ -93,6 +127,8 @@ body > main {
 
 .con-req-user {
     font-size: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .con-req-row .con-req-user img{
@@ -108,12 +144,51 @@ body > main {
     background-color: #333333;
     padding: 15px 5px;
     color: #e2e2e2;
-    text-align: center;
     font-size: 19px;
+}
+
+.connection-article > header {
+    text-align: center;
+}
+
+.circle {
+    background-color: #cccccc;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.oval {
+    background-color: #cccccc;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.circle {
+    width: 22px;
+}
+
+.oval {
+    width: 46px;
+}
+
+.education-article > header {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.education-article .content {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .connection-article > header h4, .education-article > header h4 {
     display: inline;
+}
+
+.education-article .content p:first-of-type {
+    color: #a8a8a8;
 }
 
 .connection-article > footer {
