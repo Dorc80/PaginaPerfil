@@ -104,12 +104,16 @@ body > main {
     height: 30px;
 }
 
-.connection-article > header {
+.connection-article > header, .education-article > header {
     background-color: #333333;
     padding: 15px 5px;
     color: #e2e2e2;
     text-align: center;
     font-size: 19px;
+}
+
+.connection-article > header h4, .education-article > header h4 {
+    display: inline;
 }
 
 .connection-article > footer {
