@@ -24,6 +24,11 @@ body > header {
     margin-right: 12px;
 }
 
+#header-menus > nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
 #header-menus > nav {
     display: inline;
 }
@@ -47,6 +52,7 @@ body > header {
     color: white;
     padding: 5px 16px;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .blue-header {
@@ -140,6 +146,10 @@ body > main {
     height: 30px;
 }
 
+.con-req-row .con-req-btn img:hover {
+    cursor: pointer;
+}
+
 .connection-article > header, .education-article > header {
     background-color: #333333;
     padding: 15px 5px;
@@ -151,14 +161,7 @@ body > main {
     text-align: center;
 }
 
-.circle {
-    background-color: #cccccc;
-    display: inline-block;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-.oval {
+.circle, .oval {
     background-color: #cccccc;
     display: inline-block;
     border-radius: 50%;
